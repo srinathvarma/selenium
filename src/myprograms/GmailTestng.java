@@ -17,14 +17,6 @@ public class GmailTestng {
 	private WebDriver driver;
 	public String baseurl;
 	public boolean expresult = false;
-//	@Test
-//	public void FNValidtext()
-//	{ 
-//	driver.findElement(By.id("FirstName")).sendKeys("Madhu");
-//	driver.findElement(By.id("FirstName")).sendKeys(Keys.TAB);
-//	boolean  result  = driver.findElement(By.id("errormsg_0_FirstName")).isDisplayed();
-//	assertEquals(expresult,result);
-//	}
 	
 	@Test
 	public void FNInvalidtext()
