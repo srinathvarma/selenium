@@ -131,7 +131,7 @@ public class GmailTestng {
 	public void FNblank()
 	{
 		   driver.get(baseurl);
-	System.out.println("This is test"); 
+	System.out.println("This is a selenium test"); 
 	driver.findElement(By.className("firstname")).sendKeys("");
 	driver.findElement(By.id("FirstName")).sendKeys(Keys.TAB);
 	String error = driver.findElement(By.id("errormsg_0_FirstName")).getText();
