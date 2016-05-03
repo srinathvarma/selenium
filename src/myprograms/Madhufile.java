@@ -89,7 +89,7 @@ assertEquals(expresult,result);
    @Test
 public void FNValidnumber()
 {
-System.out.println("This is a new selenium test"); 
+System.out.println("This is a new selenium test 1"); 
 driver.findElement(By.id("FirstName")).sendKeys("11222222");
 driver.findElement(By.id("FirstName")).sendKeys(Keys.TAB);
 boolean  result  = driver.findElement(By.id("errormsg_0_FirstName")).isDisplayed();
